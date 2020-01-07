@@ -1,0 +1,53 @@
+# Exported from ProBuilder
+# http://www.procore3d.com/probuilder
+# 5/26/2018 7:53:11 PM
+
+mtllib ./SimpleBorder.mtl
+o SimpleBorder
+
+g SimpleBorder
+v -5.5 0 1
+v -5.5 0 0
+v -5.5 20 1
+v -5.5 20 0
+v 5.5 0 0
+v 5.5 0 1
+v 5.5 20 0
+v 5.5 20 1
+v 5.5 0 0
+v -5.5 0 0
+v 5.5 0 1
+v -5.5 0 1
+
+vn 1 0 0
+vn 1 0 0
+vn 1 0 0
+vn 1 0 0
+vn -1 0 0
+vn -1 0 0
+vn -1 0 0
+vn -1 0 0
+vn 0 1 0
+vn 0 1 0
+vn 0 1 0
+vn 0 1 0
+
+vt -1 0
+vt 0 0
+vt -1 20
+vt 0 20
+vt 0 0
+vt 1 0
+vt 0 20
+vt 1 20
+vt -5.5 0
+vt 5.5 0
+vt -5.5 1
+vt 5.5 1
+
+g SimpleBorder
+usemtl Default_Prototype
+f 1/1/1 2/2/2 4/4/4 3/3/3
+f 5/5/5 6/6/6 8/8/8 7/7/7
+f 9/9/9 10/10/10 12/12/12 11/11/11
+
